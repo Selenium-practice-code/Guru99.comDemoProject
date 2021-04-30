@@ -1,0 +1,1 @@
+INFO    2021-04-30 18:18:55,033 [main] com.qa.guru99.base.TestBase  - Chrome Browser Launched.

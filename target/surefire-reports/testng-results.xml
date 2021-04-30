@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-30T18:20:53 IST" name="Suite" finished-at="2021-04-30T18:28:18 IST" duration-ms="444897">
+    <groups>
+    </groups>
+    <test started-at="2021-04-30T18:20:53 IST" name="Mobile list Test" finished-at="2021-04-30T18:24:08 IST" duration-ms="195423">
+      <class name="com.qa.guru99.testcases.MobileListPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:20:53 IST" name="setUp" finished-at="2021-04-30T18:21:14 IST" duration-ms="21379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:21:14 IST" name="verifyHomePageTitleTest" finished-at="2021-04-30T18:21:14 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:21:18 IST" name="tearDown" finished-at="2021-04-30T18:21:20 IST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:21:20 IST" name="setUp" finished-at="2021-04-30T18:21:44 IST" duration-ms="24669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnMobileLinkTest()[pri:2, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:21:44 IST" name="clickOnMobileLinkTest" finished-at="2021-04-30T18:21:47 IST" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMobileLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:21:47 IST" name="tearDown" finished-at="2021-04-30T18:21:56 IST" duration-ms="9138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:21:56 IST" name="setUp" finished-at="2021-04-30T18:22:36 IST" duration-ms="39754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMobilePageTitleTest()[pri:3, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:22:36 IST" name="verifyMobilePageTitleTest" finished-at="2021-04-30T18:22:39 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobilePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:22:39 IST" name="tearDown" finished-at="2021-04-30T18:22:41 IST" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:22:41 IST" name="setUp" finished-at="2021-04-30T18:23:20 IST" duration-ms="39460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortByDropdownTest()[pri:4, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:23:20 IST" name="sortByDropdownTest" finished-at="2021-04-30T18:23:39 IST" duration-ms="18536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByDropdownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:23:40 IST" name="tearDown" finished-at="2021-04-30T18:23:44 IST" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:23:44 IST" name="setUp" finished-at="2021-04-30T18:24:02 IST" duration-ms="18053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsSortTest()[pri:5, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:24:02 IST" name="verifyProductsSortTest" finished-at="2021-04-30T18:24:07 IST" duration-ms="4952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsSortTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.MobileListPageTest@61e94def]" started-at="2021-04-30T18:24:07 IST" name="tearDown" finished-at="2021-04-30T18:24:08 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.guru99.testcases.MobileListPageTest -->
+    </test> <!-- Mobile list Test -->
+    <test started-at="2021-04-30T18:24:09 IST" name="Cost Of Product Test" finished-at="2021-04-30T18:26:37 IST" duration-ms="148365">
+      <class name="com.qa.guru99.testcases.CostOfProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:24:09 IST" name="setUp" finished-at="2021-04-30T18:24:56 IST" duration-ms="47206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sonyXperiaPriceTest()[pri:1, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:24:56 IST" name="sonyXperiaPriceTest" finished-at="2021-04-30T18:24:56 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sonyXperiaPriceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:24:56 IST" name="tearDown" finished-at="2021-04-30T18:24:59 IST" duration-ms="2524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:24:59 IST" name="setUp" finished-at="2021-04-30T18:25:35 IST" duration-ms="36054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="xpreriaDetailsPagePriceTest()[pri:2, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:25:35 IST" name="xpreriaDetailsPagePriceTest" finished-at="2021-04-30T18:25:51 IST" duration-ms="15974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xpreriaDetailsPagePriceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:25:51 IST" name="tearDown" finished-at="2021-04-30T18:25:52 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:25:52 IST" name="setUp" finished-at="2021-04-30T18:26:29 IST" duration-ms="36770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="compareTheXperiaPriceTest()[pri:3, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:26:29 IST" name="compareTheXperiaPriceTest" finished-at="2021-04-30T18:26:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTheXperiaPriceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.CostOfProductTest@349c1daf]" started-at="2021-04-30T18:26:32 IST" name="tearDown" finished-at="2021-04-30T18:26:37 IST" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.guru99.testcases.CostOfProductTest -->
+    </test> <!-- Cost Of Product Test -->
+    <test started-at="2021-04-30T18:26:37 IST" name="Error Verification Test" finished-at="2021-04-30T18:27:15 IST" duration-ms="38080">
+      <class name="com.qa.guru99.testcases.ErrorVrificatonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.ErrorVrificatonTest@235a0c16]" started-at="2021-04-30T18:26:37 IST" name="setUp" finished-at="2021-04-30T18:26:58 IST" duration-ms="20853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addtoCartTest()[pri:0, instance:com.qa.guru99.testcases.ErrorVrificatonTest@235a0c16]" started-at="2021-04-30T18:26:58 IST" name="addtoCartTest" finished-at="2021-04-30T18:27:13 IST" duration-ms="15419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.ErrorVrificatonTest@235a0c16]" started-at="2021-04-30T18:27:13 IST" name="tearDown" finished-at="2021-04-30T18:27:15 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.guru99.testcases.ErrorVrificatonTest -->
+    </test> <!-- Error Verification Test -->
+    <test started-at="2021-04-30T18:27:15 IST" name="PopUp window Test" finished-at="2021-04-30T18:28:18 IST" duration-ms="62712">
+      <class name="com.qa.guru99.testcases.PopUpWindowTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.guru99.testcases.PopUpWindowTest@395b56bb]" started-at="2021-04-30T18:27:15 IST" name="setUp" finished-at="2021-04-30T18:28:00 IST" duration-ms="45071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="xperiaAddToCompareTest()[pri:0, instance:com.qa.guru99.testcases.PopUpWindowTest@395b56bb]" started-at="2021-04-30T18:28:00 IST" name="xperiaAddToCompareTest" finished-at="2021-04-30T18:28:05 IST" duration-ms="5179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xperiaAddToCompareTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.guru99.testcases.PopUpWindowTest@395b56bb]" started-at="2021-04-30T18:28:05 IST" name="tearDown" finished-at="2021-04-30T18:28:18 IST" duration-ms="12392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.guru99.testcases.PopUpWindowTest -->
+    </test> <!-- PopUp window Test -->
+  </suite> <!-- Suite -->
+</testng-results>

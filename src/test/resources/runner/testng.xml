@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener
+			class-name="com.qa.guru99.listeners.CustomListeners"></listener>
+
+	</listeners>
+
+
+
+	<test thread-count="5" name="Mobile list Test">
+		<classes>
+			<class name="com.qa.guru99.testcases.MobileListPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Cost Of Product Test">
+		<classes>
+			<class name="com.qa.guru99.testcases.CostOfProductTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Error Verification Test">
+		<classes>
+			<class name="com.qa.guru99.testcases.ErrorVrificatonTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="PopUp window Test">
+		<classes>
+			<class name="com.qa.guru99.testcases.PopUpWindowTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

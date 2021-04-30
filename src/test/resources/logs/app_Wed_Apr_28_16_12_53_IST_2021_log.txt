@@ -1,0 +1,3 @@
+INFO    2021-04-28 16:12:59,473 [main] com.qa.guru99.base.TestBase  - Chrome Browser Launched.
+INFO    2021-04-28 16:13:14,766 [main] com.qa.guru99.base.TestBase  - Navigated to  :->  http://live.demoguru99.com/index.php/
+INFO    2021-04-28 16:13:48,974 [main] com.qa.guru99.base.TestBase  - Test executes succssfully !!!
