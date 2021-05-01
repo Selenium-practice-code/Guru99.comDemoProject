@@ -26,9 +26,9 @@
 			<class name="com.qa.guru99.testcases.ErrorVrificatonTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test thread-count="5" name="PopUp window Test">
+	<test thread-count="5" name="Mobile compare PopUp window Test">
 		<classes>
-			<class name="com.qa.guru99.testcases.PopUpWindowTest" />
+			<class name="com.qa.guru99.testcases.MobileCompPopUpWindowTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

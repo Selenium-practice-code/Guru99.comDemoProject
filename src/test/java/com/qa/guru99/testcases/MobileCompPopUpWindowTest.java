@@ -18,14 +18,14 @@ import org.testng.annotations.Test;
 
 import com.qa.guru99.base.TestBase;
 import com.qa.guru99.pages.HomePage;
+import com.qa.guru99.pages.MobileCompPopUpWindowPage;
 import com.qa.guru99.pages.MobilePage;
-import com.qa.guru99.pages.PopUpWindowPage;
 
-public class PopUpWindowTest extends TestBase {
+public class MobileCompPopUpWindowTest extends TestBase {
 
 	HomePage homePage;
 	MobilePage mobilePage;
-	PopUpWindowPage popWindowPage;
+	MobileCompPopUpWindowPage mobileCompPopUpWindowPage;
 
 	@BeforeMethod
 	public void setUp() {
@@ -33,7 +33,7 @@ public class PopUpWindowTest extends TestBase {
 		initialization();
 		homePage = new HomePage();
 		mobilePage = new MobilePage();
-		popWindowPage = new PopUpWindowPage();
+		mobileCompPopUpWindowPage = new MobileCompPopUpWindowPage();
 		mobilePage = homePage.ClickOnMobileMenu();
 	}
 
@@ -42,20 +42,20 @@ public class PopUpWindowTest extends TestBase {
 
 		mobilePage.clickOnXperiaCompLink();
 		mobilePage.iphoneCompLink();
-		mobilePage.clickOnComapre();
+		mobileCompPopUpWindowPage = mobilePage.clickOnComapre();
 
 		switchWindows();
 
-		String Headertitle = popWindowPage.popUpHeaderTitle();
+		String Headertitle = mobileCompPopUpWindowPage.popUpHeaderTitle();
 		Assert.assertEquals(Headertitle, "COMPARE PRODUCTS");
 
-		String sonyXperia = popWindowPage.displayXperiaProd();
+		String sonyXperia = mobileCompPopUpWindowPage.displayXperiaProd();
 		Assert.assertEquals(sonyXperia, "SONY XPERIA");
 
-		String iphone = popWindowPage.displayIphoneProd();
+		String iphone = mobileCompPopUpWindowPage.displayIphoneProd();
 		Assert.assertEquals(iphone, "IPHONE");
 
-		popWindowPage.clickOnCloseWindow();
+		mobileCompPopUpWindowPage.clickOnCloseWindow();
 
 	}
 

@@ -18,25 +18,25 @@ public class MobilePage extends TestBase {
 	// Locators
 	@FindBy(xpath = "//body/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/select[1]")
 	private WebElement sortByDropDown;
-	
+
 	@FindBy(xpath = "//span[contains(text(),'$100.00')]")
 	private WebElement sonyXperiaPrice;
-	
+
 	@FindBy(xpath = "//a[contains(text(),'Sony Xperia')]")
 	private WebElement sonyXperia;
-	
+
 	@FindBy(xpath = "//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/ul[1]/li[1]/div[1]/div[3]/button[1]/span[1]/span[1]")
 	private WebElement addcart;
-	
+
 	@FindBy(xpath = "//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[1]/div/div[3]/ul/li[2]/a")
 	private WebElement sonyXperiaCompLink;
-	
+
 	@FindBy(xpath = "//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[2]/div/div[3]/ul/li[2]/a")
 	private WebElement iphoneCompLink;
-	
+
 	@FindBy(xpath = "//button[@title='Compare']//span//span[contains(text(),'Compare')]")
 	private WebElement compareBtn;
-	
+
 	public MobilePage() {
 
 		PageFactory.initElements(driver, this);
@@ -62,37 +62,41 @@ public class MobilePage extends TestBase {
 		FileUtils.copyFile(srcFile, new File(png));
 
 	}
-	
-	public String verifXpriaPrice() {
-		
-	  return sonyXperiaPrice.getText();
-	}
-	
-	public SonyXperiaDetailsPage clickOnSonyXperia() {
-		
-		sonyXperia.click();
-		
-		return new SonyXperiaDetailsPage();
-		
-	}
-	 public ShoppingCartPage addToCart() {
-		 
-		 addcart.click();
-		 
-		 return new ShoppingCartPage();
-	 }
-	 
-	 public void clickOnXperiaCompLink() {
-		 
-		 sonyXperiaCompLink.click();
-	 }
 
-	 public void iphoneCompLink() {
-		 
-		 iphoneCompLink.click();
-	 }
-	 public void clickOnComapre() {
+	public String verifXpriaPrice() {
+
+		return sonyXperiaPrice.getText();
+	}
+
+	public SonyXperiaDetailsPage clickOnSonyXperia() {
+
+		sonyXperia.click();
+
+		return new SonyXperiaDetailsPage();
+
+	}
+
+	public ShoppingCartPage addToCart() {
+
+		addcart.click();
+
+		return new ShoppingCartPage();
+	}
+
+	public void clickOnXperiaCompLink() {
+
+		sonyXperiaCompLink.click();
+	}
+
+	public void iphoneCompLink() {
+
+		iphoneCompLink.click();
+	}
+
+	public MobileCompPopUpWindowPage clickOnComapre() {
 		 
 		 compareBtn.click();
+		 
+		 return new MobileCompPopUpWindowPage();
 	 }
 }

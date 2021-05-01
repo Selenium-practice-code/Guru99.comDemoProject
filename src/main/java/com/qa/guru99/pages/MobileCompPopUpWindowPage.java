@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.guru99.base.TestBase;
 
-public class PopUpWindowPage extends TestBase {
+public class MobileCompPopUpWindowPage extends TestBase {
 
 	// Locators
 	@FindBy(xpath = "//*[@id=\"top\"]/body/div/div[1]/h1")
@@ -22,7 +22,7 @@ public class PopUpWindowPage extends TestBase {
 	private WebElement closeWindowBtn;
 
 	// Constructor
-	public PopUpWindowPage() {
+	public MobileCompPopUpWindowPage() {
 
 		PageFactory.initElements(driver, this);
 	}
